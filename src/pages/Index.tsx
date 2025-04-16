@@ -1,3 +1,4 @@
+
 import { FC } from "react";
 import "../styles/styles.css";
 
@@ -35,7 +36,7 @@ const Index: FC = () => {
             プライバシーポリシー
           </a>
           <a href="#" className="footer-link">利用規約</a>
-          <a href="#" className="footer-link">運営会社</a>
+          <a href="/company" className="footer-link">運営会社</a>
           <a href="#" className="footer-link">お問い合わせフォーム</a>
           <a href="#" className="footer-link">よくある質問</a>
           <a href="#" className="footer-link">特定商取引法に基づく表示</a>

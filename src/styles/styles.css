@@ -45,6 +45,35 @@ body {
   text-align: center;
 }
 
+/* Company page styles */
+.company-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.company-card {
+  padding: 2rem;
+}
+
+.company-info p {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+.company-info .indent {
+  padding-left: 1rem;
+}
+
+.email-link {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
 /* Footer styles */
 .footer {
   margin-top: auto;
