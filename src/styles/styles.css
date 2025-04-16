@@ -14,12 +14,12 @@ body {
 
 /* Header styles */
 .header {
-  padding: 1.25rem 1.5rem;
+  padding: 1rem 1.5rem;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 200px; /* Ensures vertical centering */
+  min-height: 100px;
 }
 
 .header-title {
