@@ -11,7 +11,7 @@ const Company: FC = () => {
       </header>
 
       {/* Main Content */}
-      <main className="main-content company-content">
+      <main className="main-content company-content flex items-center justify-center min-h-[calc(100vh-240px)]">
         <div className="company-info-content">
           <p>・運営会社 株式会社ワンリーリステッド</p>
           <p>・住所 〒160-0023 東京都新宿区西新宿4-31-3 永谷リヴュール新宿 5階</p>
