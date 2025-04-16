@@ -1,4 +1,3 @@
-
 import { FC } from "react";
 import "../styles/styles.css";
 
@@ -27,7 +26,14 @@ const Index: FC = () => {
           />
         </div>
         <nav className="footer-nav">
-          <a href="#" className="footer-link">プライバシーポリシー</a>
+          <a 
+            href="https://onelinavi.com/privacy.html" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="footer-link"
+          >
+            プライバシーポリシー
+          </a>
           <a href="#" className="footer-link">利用規約</a>
           <a href="#" className="footer-link">運営会社</a>
           <a href="#" className="footer-link">お問い合わせフォーム</a>
