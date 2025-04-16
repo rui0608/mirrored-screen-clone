@@ -6,7 +6,7 @@ const Company: FC = () => {
   return (
     <div className="app-container">
       {/* Header Section */}
-      <header className="header mb-4">
+      <header className="header mb-2 text-center">
         <h1 className="header-title">運営会社</h1>
       </header>
 
