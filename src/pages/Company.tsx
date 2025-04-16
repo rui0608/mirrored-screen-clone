@@ -11,7 +11,7 @@ const Company: FC = () => {
       </header>
 
       {/* Main Content */}
-      <main className="main-content company-content">
+      <main className="main-content company-content flex items-center justify-center min-h-[calc(100vh-240px)]">
         <div className="company-info-content">
           <p>・運営会社 一般社団法人地域創生応援団</p>
           <p>・住所 東京都港区南青山2丁目2番15号WIN青山531</p>
