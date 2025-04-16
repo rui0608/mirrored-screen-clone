@@ -4,16 +4,16 @@ import "../styles/styles.css";
 
 const Company: FC = () => {
   return (
-    <div className="app-container flex items-center justify-center">
-      {/* Header Section */}
-      <div className="w-full">
+    <div className="app-container min-h-screen flex items-center justify-center">
+      <div className="w-full max-w-md">
+        {/* Header Section */}
         <header className="header">
-          <h1 className="header-title">運営会社</h1>
+          <h1 className="header-title text-center">運営会社</h1>
         </header>
 
         {/* Main Content */}
-        <main className="main-content company-content flex items-center justify-center">
-          <div className="company-info-content text-center max-w-md w-full">
+        <main className="main-content company-content text-center">
+          <div className="company-info-content">
             <p>・運営会社 株式会社ワンリーリステッド</p>
             <p>・住所 〒160-0023</p>
             <p>東京都新宿区西新宿4-31-3</p>
