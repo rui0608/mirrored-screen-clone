@@ -1,18 +1,17 @@
-
 import { FC } from "react";
 import "../styles/styles.css";
 
 const Company: FC = () => {
   return (
     <div className="app-container min-h-screen flex items-center justify-center">
-      <div className="w-full max-w-md">
+      <div className="w-full max-w-md flex flex-col justify-center items-center">
         {/* Header Section */}
-        <header className="header">
+        <header className="header w-full text-center">
           <h1 className="header-title text-center">運営会社</h1>
         </header>
 
         {/* Main Content */}
-        <main className="main-content company-content text-center">
+        <main className="main-content company-content text-center w-full">
           <div className="company-info-content">
             <p>・運営会社 株式会社ワンリーリステッド</p>
             <p>・住所 〒160-0023</p>
@@ -29,7 +28,7 @@ const Company: FC = () => {
         </main>
 
         {/* Footer Section */}
-        <footer className="footer">
+        <footer className="footer w-full">
           <div className="footer-logo">
             <img 
               src="/lovable-uploads/c69884b7-505f-4bc9-8df1-43e6b3b25751.png" 
