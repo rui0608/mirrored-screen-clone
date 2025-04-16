@@ -14,13 +14,13 @@ body {
 
 /* Header styles */
 .header {
-  padding: 0.5rem 1.5rem;
+  padding: 0.75rem 1.5rem;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 60px;
-  margin-bottom: 0.1rem;
+  min-height: 80px;
+  margin-bottom: 0.25rem;
 }
 
 .header-title {
@@ -37,7 +37,7 @@ body {
 }
 
 .main-content.company-content {
-  padding-top: 0.25rem;
+  padding-top: 0.5rem;
 }
 
 .card {
@@ -62,17 +62,17 @@ body {
 }
 
 .company-info-content {
-  line-height: 1.3;
+  line-height: 1.4;
   color: #333;
 }
 
 .company-info-content p {
-  margin: 0.2rem 0;
-  font-size: 0.9rem;
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
 }
 
 .company-info-content p:first-child {
-  margin-top: 0;
+  margin-top: 0.1rem;
 }
 
 .company-paragraph {
