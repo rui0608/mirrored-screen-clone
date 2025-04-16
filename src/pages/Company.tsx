@@ -6,13 +6,13 @@ const Company: FC = () => {
   return (
     <div className="app-container">
       {/* Header Section */}
-      <header className="header mb-4">
+      <header className="header mb-2">
         <h1 className="header-title">運営会社</h1>
       </header>
 
       {/* Main Content */}
       <main className="main-content company-content flex items-center justify-center min-h-[calc(100vh-240px)]">
-        <div className="company-info-content">
+        <div className="company-info-content text-center">
           <p>・運営会社 株式会社ワンリーリステッド</p>
           <p>・住所 〒160-0023 東京都新宿区西新宿4-31-3 永谷リヴュール新宿 5階</p>
           <p>・代表者 代表取締役 橋本 一誓</p>
