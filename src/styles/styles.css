@@ -16,13 +16,14 @@ body {
 /* Header styles */
 .header {
   padding: 1.25rem 1.5rem;
+  text-align: center;
 }
 
 .header-title {
-  font-size: 1rem;
-  font-weight: normal;
+  font-size: 1.5rem;
+  font-weight: bold;
   margin: 0;
-  color: #333;
+  color: #1A3654;
 }
 
 /* Main content styles */
@@ -49,20 +50,25 @@ body {
 .company-content {
   max-width: 800px;
   margin: 0 auto;
+  padding-top: 2rem;
 }
 
-.company-card {
-  padding: 2rem;
-}
-
-.company-info p {
-  margin: 0.5rem 0;
+.company-info-content {
   line-height: 1.5;
-  font-size: 0.9rem;
+  color: #333;
 }
 
-.company-info .indent {
-  padding-left: 1rem;
+.company-info-content p {
+  margin: 0.6rem 0;
+  font-size: 0.95rem;
+}
+
+.company-paragraph {
+  margin-left: 1rem !important;
+}
+
+.company-indent {
+  margin-left: 2rem !important;
 }
 
 .email-link {
