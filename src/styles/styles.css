@@ -1,4 +1,3 @@
-
 /* Base styles */
 body {
   margin: 0;
@@ -17,6 +16,10 @@ body {
 .header {
   padding: 1.25rem 1.5rem;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px; /* Ensures vertical centering */
 }
 
 .header-title {
