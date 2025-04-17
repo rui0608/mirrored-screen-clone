@@ -35,14 +35,14 @@ const Index: FC = () => {
           >
             プライバシーポリシー
           </a>
-          <a href="#" className="footer-link">利用規約</a>
+          <a href="/terms" className="footer-link">利用規約</a>
           <a href="/company" className="footer-link">運営会社</a>
           <a href="#" className="footer-link">お問い合わせフォーム</a>
           <a href="#" className="footer-link">よくある質問</a>
           <a href="#" className="footer-link">特定商取引法に基づく表示</a>
         </nav>
         <div className="copyright">
-          <p>© 2024 一般社団法人地域創生振興団 All rights reserved.</p>
+          <p>© 2024 株式会社ワンリーリステッド All rights reserved.</p>
         </div>
       </footer>
     </div>
