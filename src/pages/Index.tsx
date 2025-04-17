@@ -42,7 +42,7 @@ const Index: FC = () => {
           <a href="#" className="footer-link">特定商取引法に基づく表示</a>
         </nav>
         <div className="copyright">
-          <p>© 2024 株式会社ワンリーリステッド All rights reserved.</p>
+          <p>© 2025 株式会社ワンリーリステッド All rights reserved.</p>
         </div>
       </footer>
     </div>
