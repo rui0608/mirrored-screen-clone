@@ -61,31 +61,6 @@ body {
   margin: 0 auto;
 }
 
-.company-card {
-  background-color: white;
-  transition: all 0.2s ease;
-}
-
-.company-info-content {
-  color: #333;
-  line-height: 1.6;
-}
-
-.info-label {
-  color: #666;
-}
-
-.email-link {
-  color: #0066cc;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.email-link:hover {
-  color: #004d99;
-  text-decoration: underline;
-}
-
 /* Footer styles */
 .footer {
   margin-top: auto;
